@@ -1,0 +1,1 @@
+gcc -m32 -g -Wall -o main.exe main.c -D GLEW_STATIC -I lib/glfw-3.1.2.bin.WIN32/include -I lib/glew-1.13.0/include -L lib/glfw-3.1.2.bin.WIN32/lib-mingw -L lib/glew-1.13.0/lib/Release/Win32        -l glew32s -l glfw3 -l gdi32 -l opengl32
